@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: linear-gradient(90deg, Rgb(184,135,70),);
 }
 
 /* Navigation Bar */
@@ -10,7 +11,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 12px;
-    background-color: black;
+    background-color: Rgb(25,25,25);
     
     /* border-bottom: 2px solid red; */
     height: 70px;
@@ -54,6 +55,14 @@ nav {
 }
 .cart a:hover{
     color: red;
+}
+
+.cart i{
+  color: white;
+}
+
+.cart i:hover{
+  color: red;
 }
 
 /* boxes which shows the products of the shop */
